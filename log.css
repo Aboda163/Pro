@@ -18,7 +18,7 @@ h1 {
     margin: 7px;
     width: 100%;
     padding: 10px;
-    border: 1px solid transparent;
+    border: 1px solid gray;
     outline: none;
     border-radius: 10px;
     align-self: stretch;
