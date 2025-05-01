@@ -1,1 +1,40 @@
+.login{
+    background-color: #414833;
+    width: 400px;
+    height: 80vh;
+    margin: auto;
+    border: 3px solid rgb(78, 72, 72);
+    border-radius: 10px;
+    margin-top: 3em;
+}
+.login input{
+    margin: 7px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+}
+a{
+    color: #b6ad90;
+}
+
+.Pass{
+    display: flex;
+    align-items: center;
+
+}
+.Pass input{
+    width: 100%;
+
+    
+}
+.Pass img{
+    width: 20px;
+    height: 20px;
+}
 
