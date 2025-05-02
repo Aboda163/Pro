@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #faa300;
+    background-color: #faa200de;
 }
 h1 {
     position: relative;
@@ -87,4 +87,8 @@ p {
     font-size: 25px;
     top: -100px;
     margin-left: -10px;
+}
+button:hover {
+    background-color: #faa200de;
+    cursor: pointer;
 }
