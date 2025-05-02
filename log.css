@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     text-align: center;
     font-size: 60px;
 }
@@ -14,7 +14,8 @@ h1 {
     border-radius: 10px;
     margin-top: 3em;
 }
-.container input{
+.container input,
+button {
     margin: 7px;
     width: 100%;
     padding: 10px;
@@ -34,4 +35,87 @@ a{
     color: #b6ad90;
 }
 
-
+ */
+ * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: #faa300;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    top: -25px;
+}
+.container {
+    position: relative;
+    width: 510px;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px auto;
+    top: 155px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 3px 3px 15px 1px;
+    text-transform: capitalize;
+}
+form {
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    position: relative;
+    align-self: stretch;
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    transition-timing-function: ease-out;
+    transition-duration: 0.3s;
+}
+label {
+    position: relative;
+    bottom: 62px;
+    left: 20px;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+}
+button {
+    align-self: center;
+    padding: 15px;
+    position: relative;
+    border-radius: 10px;
+    width: 160px;
+    font-size: 20px;
+    text-transform: capitalize;
+    top: -20px;
+}
+p {
+    position: relative;
+    text-align: center;
+    top: -5px;
+}
+#email:focus ~ .email,
+#email:valid ~ .email,
+#email:not(:placeholder-shown),
+#email:not(:focus) ~ .email {
+    font-size: 25px;
+    top: -100px;
+}
+#password:focus ~ .password,
+#password:valid ~ .password,
+#password:not(:placeholder-shown),
+#password:not(:focus) ~ .password {
+    font-size: 25px;
+    top: -100px;
+}
