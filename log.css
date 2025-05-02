@@ -44,13 +44,14 @@ input {
     border-left: transparent;
     transition-timing-function: ease-out;
     transition-duration: 0.3s;
+    overflow: hidden;
 }
 label {
     position: relative;
     bottom: 62px;
     left: 20px;
     transition-timing-function: ease-in;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
 }
 button {
     align-self: center;
@@ -73,15 +74,17 @@ p {
 }
 #email:focus ~ .email,
 #email:valid ~ .email,
-#email:not(:placeholder-shown),
+#email:not(:placeholder-shown)
 #email:not(:focus) ~ .email {
     font-size: 25px;
     top: -100px;
+    margin-left: -10px;
 }
 #password:focus ~ .password,
 #password:valid ~ .password,
-#password:not(:placeholder-shown),
+#password:not(:placeholder-shown)
 #password:not(:focus) ~ .password {
     font-size: 25px;
     top: -100px;
+    margin-left: -10px;
 }

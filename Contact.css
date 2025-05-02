@@ -96,6 +96,7 @@ form {
     font-size: 20px;
     text-transform: capitalize;
     box-shadow: 3px 3px 15px 1px;
+    border-radius: 15px;
 }
 /* specify the place of boxes */
 input,
@@ -127,7 +128,7 @@ label {
     top: -52px;
     font-size: 16px;
     transition-timing-function: ease-in;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
 }
 .message {
     top: -110px;
