@@ -129,6 +129,7 @@ label {
     font-size: 16px;
     transition-timing-function: ease-in;
     transition-duration: 0.4s;
+    cursor: text;
 }
 .message {
     top: -110px;
@@ -144,6 +145,7 @@ label {
     font-size: 20px;
     left: 38px;
     top: -45px;
+    cursor: pointer;
 }
 p:first-child {
     position: relative;

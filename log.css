@@ -10,12 +10,14 @@ h1 {
     position: relative;
     text-align: center;
     font-size: 60px;
-    top: -25px;
+    top: -35px;
+    margin-bottom: 10px;
+    margin-top: 35px;
 }
 .container {
     position: relative;
     width: 510px;
-    height: 60vh;
+    height: 64vh;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -27,7 +29,7 @@ h1 {
     text-transform: capitalize;
 }
 form {
-    height: 400px;
+    height: 450px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -39,12 +41,28 @@ input {
     padding: 10px;
     margin-bottom: 15px;
     outline: none;
-    border-top: transparent;
+    /* border-top: transparent;
     border-right: transparent;
-    border-left: transparent;
+    border-left: transparent; */
+    border-radius: 10px;
     transition-timing-function: ease-out;
     transition-duration: 0.3s;
     overflow: hidden;
+}
+.eye {
+    display: flex;
+    position: relative;
+    bottom: 98px;
+    right: 5px;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+.remeber-Pass {
+    margin-left: 10px;
+}
+#remeber-Pass {
+    align-self: flex-start;
+    top: -31px;
 }
 label {
     position: relative;
@@ -52,43 +70,39 @@ label {
     left: 20px;
     transition-timing-function: ease-in;
     transition-duration: 0.4s;
+    cursor: text;
 }
 button {
     align-self: center;
     padding: 15px;
     position: relative;
     border-radius: 10px;
-    width: 160px;
+    width: 460px;
     font-size: 20px;
     text-transform: capitalize;
-    top: -20px;
+    top: 20px;
 }
 p {
     position: relative;
     text-align: center;
-    top: -5px;
+    top: 20px;
 }
 .forget {
     position: relative;
-    text-align: center;
-}
-#email:focus ~ .email,
-#email:valid ~ .email,
-#email:not(:placeholder-shown)
-#email:not(:focus) ~ .email {
-    font-size: 25px;
-    top: -100px;
-    margin-left: -10px;
-}
-#password:focus ~ .password,
-#password:valid ~ .password,
-#password:not(:placeholder-shown)
-#password:not(:focus) ~ .password {
-    font-size: 25px;
-    top: -100px;
-    margin-left: -10px;
+    align-self: flex-end;
+    top: -81px;
 }
 button:hover {
     background-color: #faa200de;
     cursor: pointer;
+}
+.sign-up,
+.forget {
+    color: blue;
+}
+#email:focus ~ .email,
+#email:valid ~ .email {
+    top: -10px;
+    font-size: 20px;
+    padding: 10px;
 }
