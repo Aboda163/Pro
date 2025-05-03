@@ -5,7 +5,8 @@
 }
 body {
     background-image: url(dish.jpg);
-    background-image:;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 h1 {
     position: relative;
