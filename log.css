@@ -113,16 +113,30 @@ button:hover {
     height: 100px;
     background-color: black;
 }
+.c-1-2-3 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    animation: rotate 3s linear 0.5s infinite forwards;
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
+}
 .circle1 ,
 .circle2 ,
 .circle3 {
     align-self: flex-start;
 }
+.circle1 {
+    left: 29px;
+    top: 8px;
+}
 .circle2 {
     top: 107px;
+    left: 29px;
 }
 .circle3 {
-    left: 94px;
+    left: 114px;
     top: 57px;
 }
 
@@ -163,4 +177,12 @@ button:hover {
 .circle12 {
     left: 94px;
     bottom: 57px;
+}
+@keyframes rotate {
+    from{ 
+        transform:  rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
