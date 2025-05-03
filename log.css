@@ -4,25 +4,26 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(dish.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-color: #faa200de;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 h1 {
     position: relative;
     text-align: center;
     font-size: 60px;
-    top: -35px;
-    margin-bottom: 10px;
-    margin-top: 35px;
+    top: -15px;
+    margin-bottom: 40px;
+    margin-top: 35px;;
 }
 .container {
     position: relative;
     width: 510px;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
-    background-color: transparent;
+    background-color: #000000cf;
     margin: 20px auto;
     top: 155px;
     border: 2px solid black;
@@ -52,26 +53,20 @@ input {
 .eye {
     display: flex;
     position: relative;
-    bottom: 98px;
+    bottom: 64px;
     right: 5px;
     align-self: flex-end;
     justify-content: flex-end;
 }
 .remeber-Pass {
-    margin-left: 10px;
+    margin-left: 35px;
+    bottom: 61px;
+    position: relative;
 }
 #remeber-Pass {
     align-self: flex-start;
     top: -31px;
 }
-/* label {
-    position: relative;
-    bottom: 62px;
-    left: 20px;
-    transition-timing-function: ease-in;
-    transition-duration: 0.4s;
-    cursor: text;
-} */
 button {
     align-self: center;
     padding: 15px;
@@ -98,8 +93,74 @@ button:hover {
 }
 .sign-up,
 .forget {
-    color: blue;
+    color: #faa200de;
 }
-#email:focus {
-    placeholder
+.circle1 ,
+.circle2 ,
+.circle3 ,
+.circle4 ,
+.circle5 ,
+.circle6 ,
+.circle7 ,
+.circle8 ,
+.circle9 ,
+.circle10 ,
+.circle11 ,
+.circle12 {
+    position: absolute;
+    border-radius: 50% ;
+    width: 100px ;
+    height: 100px;
+    background-color: black;
+}
+.circle1 ,
+.circle2 ,
+.circle3 {
+    align-self: flex-start;
+}
+.circle2 {
+    top: 107px;
+}
+.circle3 {
+    left: 94px;
+    top: 57px;
+}
+
+.circle4 ,
+.circle5 ,
+.circle6 {
+    align-self: flex-end;
+}
+.circle5 {
+    top: 107px;;
+}
+.circle6 {
+    right: 94px;
+    top: 57px;
+}
+.circle7 ,
+.circle8 ,
+.circle9 {
+    align-self: flex-end;
+    bottom: 10px;
+}
+.circle8 {
+    bottom: 107px;
+}
+.circle9 {
+    right: 94px;
+    bottom: 57px;
+}
+.circle10 ,
+.circle11 ,
+.circle12 {
+    align-self: flex-start;
+    bottom: 10px;
+}
+.circle11 {
+    bottom: 107px;
+}
+.circle12 {
+    left: 94px;
+    bottom: 57px;
 }
