@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #faa200de;
+    background-image: url(dish.jpg);
+    background-image:;
 }
 h1 {
     position: relative;
