@@ -121,11 +121,8 @@ button:hover {
     width: 215px;
     height: 215px;
     border-radius: 50%;
-}
-.circle1 ,
-.circle2 ,
-.circle3 {
-    align-self: flex-start;
+    left: 30px;
+    top: 20px;
 }
 .circle1 {
     left: 29px;
@@ -139,43 +136,77 @@ button:hover {
     left: 114px;
     top: 57px;
 }
-
-.circle4 ,
-.circle5 ,
-.circle6 {
+.c-4-5-6 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    animation: rotate 3s linear 0.5s infinite forwards;
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
     align-self: flex-end;
+    right: 45px;
+    top: 20px;
+}
+
+.circle4 {
+    top: 10px;
+    left: 27px;
 }
 .circle5 {
-    top: 107px;;
+    top: 107px;
+    left: 28px;
 }
 .circle6 {
-    right: 94px;
+    right: 1px;
     top: 57px;
 }
-.circle7 ,
-.circle8 ,
-.circle9 {
+.c-7-8-9 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    animation: rotate 3s linear 0.5s infinite forwards;
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
     align-self: flex-end;
-    bottom: 10px;
+    bottom: 45px;
+    right: 45px;
+}
+.circle7 {
+    left: 29px;
+    top: 3px;
 }
 .circle8 {
-    bottom: 107px;
+    bottom: 60px;
+    left: 114px;
 }
 .circle9 {
-    right: 94px;
-    bottom: 57px;
+    left: 27px;
+    bottom: 12px;
 }
-.circle10 ,
-.circle11 ,
-.circle12 {
+.c-10-11-12 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    animation: rotate 3s linear 0.5s infinite forwards;
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
     align-self: flex-start;
-    bottom: 10px;
+    bottom: 45px;
+    left: 35px;
+}
+.circle10 {
+    top: 7px;
+    left: 28px;
 }
 .circle11 {
-    bottom: 107px;
+    bottom: 9px;
+    left: 26px;
 }
 .circle12 {
-    left: 94px;
+    right: 3px;
     bottom: 57px;
 }
 @keyframes rotate {
