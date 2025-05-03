@@ -100,9 +100,3 @@ button:hover {
 .forget {
     color: blue;
 }
-#email:focus ~ .email,
-#email:valid ~ .email {
-    top: -10px;
-    font-size: 20px;
-    padding: 10px;
-}
