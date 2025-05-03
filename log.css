@@ -44,7 +44,7 @@ input {
     /* border-top: transparent;
     border-right: transparent;
     border-left: transparent; */
-    border-radius: 10px;
+    border-radius: 15px;
     transition-timing-function: ease-out;
     transition-duration: 0.3s;
     overflow: hidden;
@@ -76,7 +76,7 @@ button {
     align-self: center;
     padding: 15px;
     position: relative;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 460px;
     font-size: 20px;
     text-transform: capitalize;
