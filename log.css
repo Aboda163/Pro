@@ -64,14 +64,14 @@ input {
     align-self: flex-start;
     top: -31px;
 }
-label {
+/* label {
     position: relative;
     bottom: 62px;
     left: 20px;
     transition-timing-function: ease-in;
     transition-duration: 0.4s;
     cursor: text;
-}
+} */
 button {
     align-self: center;
     padding: 15px;
@@ -99,4 +99,7 @@ button:hover {
 .sign-up,
 .forget {
     color: blue;
+}
+#email:focus {
+    placeholder
 }
