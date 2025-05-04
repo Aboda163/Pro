@@ -2,7 +2,10 @@ body{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #faa200de;
+    /* background-color: #faa200de; */
+    background-image: url(ph.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h2 {
     position: relative;
@@ -86,7 +89,7 @@ form {
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: transparent;
     margin: 20px 45% 20px 55%;
     width: 510px;
     height: 658px;
@@ -191,4 +194,7 @@ textarea:focus ~ .message,
     margin-left: 30px;
     font-size: 20px;
     padding: 10px;
+}
+input:focus {
+    background-color: transparent;
 }
