@@ -30,7 +30,7 @@ h2 {
 .container {
     position: relative;
     width: 510px;
-    height: 60vh;
+    height: 61vh;
     display: flex;
     flex-direction: column;
     background-color: transparent;
@@ -98,10 +98,107 @@ p {
     top: -81px;
 }
 button:hover {
-    background-color: #faa200de;
+    background-color: #c75bc799;
     cursor: pointer;
 }
 .sign-up,
 .forget {
     color: blue;
+}
+/* Mobile */
+
+@media (max-width: 767px) {
+    body {
+        background-size: 100% 125%;
+    }
+    h1 {
+        font-size: 80px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    button {
+        top: -5px;
+    }
+    p {
+        top: -5px;
+    }
+}      
+
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-size: 100% 125%;
+    }
+    h1 {
+        font-size: 85px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    button {
+        top: -5px;
+    }
+    p {
+        top: -5px;
+    }
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+    body {
+        background-size: 100% 125%;
+    }
+    h1 {
+        font-size: 90px;
+    }
+    h2 {
+        font-size: 55px;
+    }
+    button {
+        top: -5px;
+    }
+    p {
+        top: -5px;
+    }
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 100px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    button {
+        top: 40px;
+    }
+    p {
+        top: 40px;
+    }
+}
+
+/* Custom */
+
+@media (max-width: 1199px) {
+    body {
+        background-size: 100% 125%;
+    }
+    h1 {
+        font-size: 90px;
+    }
+    h2 {
+        font-size: 55px;
+    }
+    button {
+        top: -5px;
+    }
+    p {
+        top: -5px;
+    }
 }
