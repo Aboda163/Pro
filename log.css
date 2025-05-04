@@ -182,23 +182,3 @@ button:hover {
         top: 40px;
     }
 }
-
-/* Custom */
-
-@media (max-width: 1199px) {
-    body {
-        background-size: 100% 125%;
-    }
-    h1 {
-        font-size: 90px;
-    }
-    h2 {
-        font-size: 55px;
-    }
-    button {
-        top: -5px;
-    }
-    p {
-        top: -5px;
-    }
-}
