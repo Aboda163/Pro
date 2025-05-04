@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #faa200de;
+    /* background-color: #faa200de; */
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     display: flex;
     flex-direction: column;
 }
 h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 100px;
+    text-transform: capitalize;
+}
+h2 {
     position: relative;
     text-align: center;
     font-size: 60px;
@@ -23,9 +34,9 @@ h1 {
     height: 60vh;
     display: flex;
     flex-direction: column;
-    background-color: #000000cf;
+    background-color: transparent;
     margin: 20px auto;
-    top: 155px;
+    top: 70px;
     border: 2px solid black;
     border-radius: 15px;
     padding: 10px;
@@ -93,127 +104,5 @@ button:hover {
 }
 .sign-up,
 .forget {
-    color: #faa200de;
-}
-.circle1 ,
-.circle2 ,
-.circle3 ,
-.circle4 ,
-.circle5 ,
-.circle6 ,
-.circle7 ,
-.circle8 ,
-.circle9 ,
-.circle10 ,
-.circle11 ,
-.circle12 {
-    position: absolute;
-    border-radius: 50% ;
-    width: 100px ;
-    height: 100px;
-    background-color: black;
-}
-.c-1-2-3 {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    animation: rotate 3s linear 0.5s infinite forwards;
-    width: 215px;
-    height: 215px;
-    border-radius: 50%;
-    left: 30px;
-    top: 20px;
-}
-.circle1 {
-    left: 29px;
-    top: 8px;
-}
-.circle2 {
-    top: 107px;
-    left: 29px;
-}
-.circle3 {
-    left: 114px;
-    top: 57px;
-}
-.c-4-5-6 {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    animation: rotate 3s linear 0.5s infinite forwards;
-    width: 215px;
-    height: 215px;
-    border-radius: 50%;
-    align-self: flex-end;
-    right: 45px;
-    top: 20px;
-}
-
-.circle4 {
-    top: 10px;
-    left: 27px;
-}
-.circle5 {
-    top: 107px;
-    left: 28px;
-}
-.circle6 {
-    right: 1px;
-    top: 57px;
-}
-.c-7-8-9 {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    animation: rotate 3s linear 0.5s infinite forwards;
-    width: 215px;
-    height: 215px;
-    border-radius: 50%;
-    align-self: flex-end;
-    bottom: 45px;
-    right: 45px;
-}
-.circle7 {
-    left: 29px;
-    top: 3px;
-}
-.circle8 {
-    bottom: 60px;
-    left: 114px;
-}
-.circle9 {
-    left: 27px;
-    bottom: 12px;
-}
-.c-10-11-12 {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    animation: rotate 3s linear 0.5s infinite forwards;
-    width: 215px;
-    height: 215px;
-    border-radius: 50%;
-    align-self: flex-start;
-    bottom: 45px;
-    left: 35px;
-}
-.circle10 {
-    top: 7px;
-    left: 28px;
-}
-.circle11 {
-    bottom: 9px;
-    left: 26px;
-}
-.circle12 {
-    right: 3px;
-    bottom: 57px;
-}
-@keyframes rotate {
-    from{ 
-        transform:  rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
+    color: blue;
 }
