@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body {
-    /* background-color: #faa200de; */
     background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
