@@ -164,3 +164,31 @@ button:hover {
     left: 94px;
     bottom: 57px;
 }
+.circle1 ,
+.circle2 ,
+.circle3 ,
+.circle4 ,
+.circle5 ,
+.circle6 ,
+.circle7 ,
+.circle8 ,
+.circle9 ,
+.circle10 ,
+.circle11 ,
+.circle12  {
+
+
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes animation{
+    form{
+        transform: rotatey(0deg);
+
+    }
+    to{
+        transform: rotatey(360deg);
+    }
+}
