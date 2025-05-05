@@ -347,7 +347,7 @@ input:focus {
 @media (min-width: 1200px) {
     body {
         background-size: cover;
-        height: 98vh;
+        height: 105vh;
     }
     form {
         margin: 20px 45% 20px 55%;
