@@ -1,1 +1,147 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar{
+    background-color: #283618;
+    padding-inline: 15px;
+    position: relative;
+    z-index: 10;
+}
+.navdiv{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    margin-top: 10px;
+}
+.logo a{
+    color: aliceblue;
+    font-size: 40px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    padding-top: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.button_signUp,
+.button_login{
+    background-color: rgba(0, 0, 0, 0);
+    margin: 20px ;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.788);
+    border-radius: 10px;
+    width: 160px;
+}
+button a{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Varela Round", sans-serif;
+}
+/* navbar */
+.products{
+    height: auto;
+    background-color: #d5bdaf;
+}
+.container{
+    width: 80%;
+    margin: auto; 
+    padding-block: 4em;
+    padding-inline: 2em;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    gap: 2em;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+.product_items{
+    width: calc((100% - 4em)/3);
+    /* height: 60vh; */
+    background: antiquewhite;
+    justify-content: center;
+    padding:  2em;
+    border: 4px solid rgba(40, 54, 24 , 0.6) ;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #283618;
+}
+.product_items_image{
+    margin-bottom: 1em;
+    /* background: #5e791f; */
+    width: 100%;
+    height: 30vh;
+    overflow: hidden; 
+    border-radius: 10px;
+}
+.product_items_image img{
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+}
+.product_items:hover img{
+    transform:scale(1.7) rotate(5deg) ;
+    /* transform: rotate(7deg);     */
+}
+.product_item_image_description h2{
+    margin-bottom: 1.em;
+    padding: 5px;
+    text-align: center;
+}
+.product_item_image_description p,
+.product_item_image_description summary{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: auto;
+    letter-spacing: 1.5px;
+}
+span{
+    text-decoration: line-through;
+}
+.product_item_image_description a{
+    border-radius: 10px;
+    text-decoration: none;
+    background: #283618;
+    color: antiquewhite;
+    display: flex; 
+    padding: 5px;
+    width: 100%;
+    height: 2em; 
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Slab", serif;
+    margin: 10px;
+    text-transform: capitalize;
+}
+@media (max-width: 1024px)  {
+    .container{
+        padding-inline: 1em;
+        
+    }
+        .product_items{
+            width: calc((100% - 2em)/2);
+        
+        }
+    }
+    
+
+@media (max-width:768px) {
+    .product_items {
+        width: 100%;
+    }
+    
+} 
