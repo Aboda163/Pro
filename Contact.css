@@ -197,7 +197,7 @@ input:focus {
 
 @media (max-width: 767px) {
     body {
-        background-size: 125% 300%;
+        background-size: auto;
         height: 40vh;
     }
     form {
@@ -246,7 +246,7 @@ input:focus {
 
 @media (min-width: 768px) and (max-width: 991px) {
     body {
-        background-size: 125% 300%;
+        background-size: auto;
         height: 40vh;
     }
     form {
@@ -296,7 +296,7 @@ input:focus {
 
 @media (min-width: 992px) {
     body {
-        background-size: 125% 300%;
+        background-size: auto;
         height: 40vh;
     }
     form {
@@ -346,7 +346,7 @@ input:focus {
 
 @media (min-width: 1200px) {
     body {
-        background-size: 100% 101%;
+        background-size: cover;
         height: 93vh;
     }
     form {
