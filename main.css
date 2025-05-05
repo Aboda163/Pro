@@ -1,1 +1,128 @@
-/*  */
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1682778418768-16081e4470a1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.name{
+
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+/* nav */
+.navbar{
+    /* background-color: teal; */
+    margin: 10px;
+    padding-inline: 15px;
+    position: relative;
+    z-index: 10;
+}
+.navdiv{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    margin-top: 10px;
+}
+.logo a{
+    color: aliceblue;
+    font-size: 40px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    padding-top: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.button_signUp,
+.button_login{
+    background-color: rgba(0, 0, 0, 0);
+    margin: 20px ;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.788);
+    border-radius: 10px;
+    width: 160px;
+}
+button a{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Varela Round", sans-serif;
+}
+/* section */
+.description{
+    position: relative;
+    background-color: teal;
+    text-align: center;
+    height: 110px;
+}
+section button{
+    background-color: black;
+    border-radius: 10px;
+    width: 90px;
+    padding: 10px;
+    transform: translatey(10px);
+}
+section a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.clear{
+    clear: both;
+}
+.container{
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+}
+.open_lay{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.descr{
+    width: 50%;
+    /* height: 50%; */
+    color: white;
+    margin: 20px;
+    position: absolute;
+    text-align: center;
+    top: 370px;
+    left: 49%;
+    transform: translate(-50% , -50%);
+    line-height: 1.5;
+}
+.descr p{
+    color: rgb(255, 255, 255);
+    word-spacing: 1px;
+    line-height: 1.9;
+    font-size: 17px;
+    letter-spacing: 1px;
+ 
+}
+.descr h4{
+    line-height: 1.5;
+    margin-top: 10px;
+}
