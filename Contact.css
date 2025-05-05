@@ -2,7 +2,10 @@ body{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #faa200de;
+    /* background-color: #faa200de; */
+    background-image: url(background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h2 {
     position: relative;
@@ -20,14 +23,6 @@ p:nth-child(2){
     font-size: 30px;
 }
 /* icons background-image and its size */
-.phone-image,
-.email-image,
-.address-image {
-    border:1px solid rgba(0, 0, 0, 0.5);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
 .our-phone,
 .our-email,
 .address {
@@ -45,6 +40,7 @@ p:nth-child(2){
     transition-duration: 0.3s;
     width: 90px;
     height: 90px;
+    border-radius: 50%;
 }
 .address {
     top: 290px;
@@ -61,6 +57,7 @@ p:nth-child(2){
     transition-duration: 0.3s;
     width: 90px;
     height: 90px;
+    border-radius: 50%;
 }
 .our-email {
     top: 428px;
@@ -77,6 +74,7 @@ p:nth-child(2){
     transition-duration: 0.3s;
     width: 90px;
     height: 90px;
+    border-radius: 50%;
 }
 .our-phone {
     top: 570px;
@@ -86,7 +84,7 @@ form {
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: transparent;
     margin: 20px 45% 20px 55%;
     width: 510px;
     height: 658px;
@@ -191,4 +189,203 @@ textarea:focus ~ .message,
     margin-left: 30px;
     font-size: 20px;
     padding: 10px;
+}
+input:focus {
+    background-color: transparent;
+}
+/* Mobile */
+
+@media (max-width: 767px) {
+    body {
+        background-size: 125% 300%;
+        height: 40vh;
+    }
+    form {
+        margin: 20px auto;
+    }
+    .phone-image,
+    .email-image,
+    .address-image {
+        border:1px solid rgba(0, 0, 0, 0.5);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        position: absolute;
+    }
+    .our-phone,
+    .our-email,
+    .address {
+        font-size: 40px;
+        left: 160px;
+    }
+    .our-phone {
+        top: 985px;
+    }
+    .phone-image {
+        top: 1000px;
+    }
+    .our-email {
+        top: 900px;
+    }
+    .email-image {
+        top: 915px;
+    }
+    .address {
+        top: 800px;
+    }
+    .address-image {
+        top: 815px;
+    }
+    .space {
+        position: absolute;
+        top: 1170px;
+    }
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-size: 125% 300%;
+        height: 40vh;
+    }
+    form {
+        margin: 20px auto;
+    }
+    .phone-image,
+    .email-image,
+    .address-image {
+        border:1px solid rgba(0, 0, 0, 0.5);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        position: absolute;
+        left: 180px;
+    }
+    .our-phone,
+    .our-email,
+    .address {
+        font-size: 40px;
+        left: 255px;
+    }
+    .our-phone {
+        top: 985px;
+    }
+    .phone-image {
+        top: 1000px;
+    }
+    .our-email {
+        top: 900px;
+    }
+    .email-image {
+        top: 915px;
+    }
+    .address {
+        top: 800px;
+    }
+    .address-image {
+        top: 815px;
+    }
+    .space {
+        position: absolute;
+        top: 1170px;
+    }
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+    body {
+        background-size: 125% 300%;
+        height: 40vh;
+    }
+    form {
+        margin: 20px auto;
+    }
+    .phone-image,
+    .email-image,
+    .address-image {
+        border:1px solid rgba(0, 0, 0, 0.5);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        position: absolute;
+        left: 335px;
+    }
+    .our-phone,
+    .our-email,
+    .address {
+        font-size: 40px;
+        left: 410px;
+    }
+    .our-phone {
+        top: 985px;
+    }
+    .phone-image {
+        top: 1000px;
+    }
+    .our-email {
+        top: 900px;
+    }
+    .email-image {
+        top: 915px;
+    }
+    .address {
+        top: 800px;
+    }
+    .address-image {
+        top: 815px;
+    }
+    .space {
+        position: absolute;
+        top: 1170px;
+    }
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+    body {
+        background-size: 100% 101%;
+        height: 93vh;
+    }
+    form {
+        margin: 20px 45% 20px 55%;
+    }
+    .phone-image,
+    .email-image,
+    .address-image {
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 590px;
+        left: 60px;
+        background-color: rgba(0, 0, 0, 0.137);
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+    }
+    .address-image {
+        top: 220px;
+    }
+    .address {
+        top: 220px;
+        left: 165px;
+    }
+    .email-image {
+        top: 420px;
+    }
+    .our-email {
+        top: 420px;
+        left: 165px;
+    }
+    .phone-image {
+        top: 620px;
+    }
+    .our-phone {
+        top: 620px;
+        left: 165px;
+    }
+    .space {
+        top: 0;
+    }
 }
