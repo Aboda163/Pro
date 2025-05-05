@@ -3,31 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="resturant" content="home page">
+    <link rel="stylesheet" href="main.css">
     <title>Home Page</title>
 </head>
 <body>
     <div class="name">
         <h1>Helwan Resturant</h1>
     </div>
-    <div class="container">
-        <header class="header">
-            <div class="logo"></div> <!-- logo -->
-            <nav>
-                <a href="">HOME</a>
-                <a href="">PROFILE</a>
-                <a href="">ABOUT US</a>
-                <a href="">CONTACT US</a>
-                <a href="">SIGN UP</a>
-            </nav>
+    <nav class="navbar">
+        <header class="navdiv">
+            <div class="logo"><a href="#">Helwan</a></div> <!-- logo -->
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PROFILE</a></li>    
+                <li><a href="#">ABOUT US</a></li> 
+                <li><a href="#">CONTACT US</a></li>    
+                <li><a href="#">SIGN UP</a></li>  
+                <button class="button_signUp"><a href="#">sign-up</a></button>  
+                <button class="button_login"><a href="#">log-in</a></button>  
+            </ul>
         </header>
+    </nav>
         <section class="main-content">
             <div></div> <!-- image -->
             <div class="description">
                 <h3>Enjoy our delicious food </h3>
                 <p>welcome to helwan restaurant, Did you like food and want to try it ?</p>
-                <a href="" class="order_button">Order Now</a>
+                <button><a href="#" class="order_button">Order Now</a></button>
         </section>
-    </div>
+
     <div>our products</div>
     <div>food</div>
     <div>drink</div>
