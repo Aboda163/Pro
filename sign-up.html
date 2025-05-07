@@ -1,48 +1,66 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./sign-up.css">
-</head>
-<body>
-    <div class="sing_up">
-        <h1>sing up</h1>
-        <form>
-            <label for="first_name">first name</label>
-            <input type="text" id="first_name" placeholder="first name">
-                    
-            <label for="">last name</label>
-            <input type="text" id="last name" placeholder="Last name">
-                    
-            <label for="">Email</label>
-            <input type="text" id="Email" placeholder="Email">
-            <label for="">Date</label>
-            <input type="date" >
-
-                <label for="password">password</label>
-            <div class="Pass">
-                
-                <input type="password" name="" id="password" placeholder="password"  required>
-                <!-- <img src="./css/Eye.png" alt=""> -->
-            </div>
-
-                <label for="confirm_password">confirm password</label>
-            <div class="Pass">
-                <input type="password" name="" id="confirm_password" placeholder="confirm password" required>
-                <!-- <img src="./css/Eye.png" alt=""> -->
-            </div>
-            
-            
-                    
-                    <input type="submit" value="submit">
-                    <input type="reset" value="Delete">                
-                <p>
-                    Already have account?<a href="./log.html">log in</a>
-                </p>
-        </form>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="discription" content="best and virit delshous food">
+        <link rel="stylesheet" href="sign-up.css">
+        <title>Dream Resturant</title>
+    </head>
+    <body>
+        <div class="background">
+        <nav class="navbar">
+            <header class="navdiv">
+                <div class="logo"><a href="HomePage.html">Dream resturant</a></div> <!-- logo -->
+                <ul>
+                    <li><a href="HomePage.html">HOME</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">PROFILE</a></li>    
+                    <li><a href="about.html">ABOUT US</a></li> 
+                    <li><a href="ContactUS.html">CONTACT US</a></li>     
+                    <button class="button_signUp"><a href="sign-up.html">sign-up</a></button>  
+                    <button class="button_login"><a href="log.html">log-in</a></button>  
+                </ul>
+            </header>
+        </nav></div>
+    <div class="sign-up"> 
+        <h1>Sign Up</h1>
+    <form >
+        <div class="group">
+            <input id="fn" type="text" name="=Frist N" minlength="3" maxlength="10" placeholder="frist name">
+        </div>
+        <div class="group">
+            <input id="ln" type="text" name="=Last N" minlength="3" maxlength="10" placeholder="last name">
+        </div>
+        <div class="group">
+            <input id="pn" required type="number" name="=Phone number" minlength="11" maxlength="15" placeholder="Phone number">
+        </div>
+        <div class="group">
+            <input id="d" type="date" name="=data of brith">
+        </div>
+        <div class="group">
+            <select required name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div class="group">
+            <input id="g" required  type="email" name="email" minlength="10" maxlength="20" placeholder="Email">
+        </div>
+        <div class="group">
+            <input id="p" required type="password" name="=password" minlength="8" maxlength="15" placeholder="password">
+        </div>
+        <div class="group">
+            <input id="cp" required type="password" name="=password" minlength="8" maxlength="15" placeholder="confirm password">
+        </div>
+        <div class="groub">
+            <button type="submit" >sign up</button>
+        </div>
+    </form>   
+    <div class="status">
+        By clicking the Sign Up button,you agree to our <br>
+        Terms and Conditions and Policy and Privacy
+        <br> Already Have An Acount? <a href="log.html">Log In</a>
+    </div>   
     </div>
-</body>
+    </body>
 </html>

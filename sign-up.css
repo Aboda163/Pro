@@ -1,49 +1,150 @@
-body{
-    background-color: #c2c5aa;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-.sing_up {
-    width: 400px;
-    height: 80vh;
-    background-color: #414833;
-    margin: auto;
-    border: 3px solid rgb(78, 72, 72);
+body {
+background-color: #F0BB78;
+align-items: center;
+display: flex;
+justify-content: center;
+min-height: 100vh;
+z-index: 0;
+}
+.background {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: #4E1F00;
+    z-index: 2;
+}
+.navbar{
+    margin: 10px;
+    padding-inline: 15px;
+    position: relative;
+    z-index: 10;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    margin-top: 10px;
+}
+.logo a{
+    color: aliceblue;
+    font-size: 70px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    padding-top: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.button_signUp,
+.button_login{
+    background-color: rgba(0, 0, 0, 0);
+    margin: 20px ;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.788);
     border-radius: 10px;
-    margin-top: 3em;
+    width: 160px;
+}
+button a{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Varela Round", sans-serif;
+    text-decoration: none;
+}
+.sign-up{
+    padding: 32px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #F0BB78;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 3px 3px 15px 1px;
+    text-transform: capitalize;
+    z-index: 3;
 }
 h1{
     text-align: center;
-    padding-top: 1em;
+    margin-bottom: 24px;
+    color: white;
+    font-size: 60px;
 }
-form{
-    width: 90%;
-    margin-inline: 5px;
-    color: #a7c957;
+
+.group{
+    margin-bottom: 19px;
+}
+input:placeholder-shown {
+    text-transform: capitalize;
 }
 form label{
-    display: flex;
-}
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+    font-weight: bold;
+} 
+
 form input{
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border: 1px solid gray;
-    outline: none;
-    border-radius: 10px;
+width: 100%;
+padding: 13px;
+border: 1px solid #ddd;
+border-radius: 15px;
+font-size: 16px;
 }
-input[type="submit"],
-input[type="reset"]{
+select{
     width: 100%;
-    height: 35px;
-    margin: 10px;
-    background-color: #b6ad90;
-    padding-inline: 5px;
-    cursor: pointer;
-
-
+padding: 13px;
+border: 1px solid #ddd;
+border-radius: 15px;
+font-size: 16px;
 }
 p{
-    text-align: center;
+    font-size: .8rem;
+    color: #666;
+    margin-top: .3rem;
 }
-a{
-    color: #b6ad90;
+button{
+    width: 100%;
+    padding: 16px;
+    background-color: #4E1F00;
+    border:none;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 16px;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+button:hover {
+    background-color: #4e1f00d7;
+}
+span{
+    font-size: 16px;
+    font-weight: normal;
+}
+.status {
+    text-transform:none;
+    color: white;
+}
+.status a {
+color: #4E1F00;
+}
+.status a:hover {
+    text-decoration: underline;
 }
