@@ -3,63 +3,64 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="discription" content="best and virit delshous food">
-
-        <link rel="stylesheet" href="css/master.css">
-       <title>restront site</title>
+        <link rel="stylesheet" href="sign-up.css">
+        <title>Dream Resturant</title>
     </head>
     <body>
-    <div class="sign up"> 
-        <h1>Sign Up! <br> <span>It is free and just takes a minute</span></h1>
+        <div class="background">
+        <nav class="navbar">
+            <header class="navdiv">
+                <div class="logo"><a href="HomePage.html">Dream resturant</a></div> <!-- logo -->
+                <ul>
+                    <li><a href="HomePage.html">HOME</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">PROFILE</a></li>    
+                    <li><a href="about.html">ABOUT US</a></li> 
+                    <li><a href="ContactUS.html">CONTACT US</a></li>     
+                    <button class="button_signUp"><a href="sign-up.html">sign-up</a></button>  
+                    <button class="button_login"><a href="log.html">log-in</a></button>  
+                </ul>
+            </header>
+        </nav></div>
+    <div class="sign-up"> 
+        <h1>Sign Up</h1>
     <form >
-        <div class="groub">
-            <label for="fn">Frist Name</label>
+        <div class="group">
             <input id="fn" type="text" name="=Frist N" minlength="3" maxlength="10" placeholder="frist name">
         </div>
-        <div class="groub">
-            <label for="ln">Last Name</label>
+        <div class="group">
             <input id="ln" type="text" name="=Last N" minlength="3" maxlength="10" placeholder="last name">
         </div>
-<div class="groub">
-    <label for="g">Gmail</label>
-    <input id="g" required  type="email" name="email" minlength="10" maxlength="20" placeholder="Email">
-</div>
-<div class="groub">
-    <label for="p">Password</label>
-    <input id="p" required type="password" name="=password" minlength="8" maxlength="15" placeholder="write a compliex password">
-</div>
-<div class="groub">
-    <label for="cp">Confirm Password</label>
-    <input id="cp" required type="password" name="=password" minlength="8" maxlength="15" placeholder="confirm password">
-</div>
-<div class="groub">
-    <label for="u">Username</label>
-    <input id="u" required type="username" name="username" minlength="8" maxlength="15" placeholder="Username">
-</div>
-<div class="groub">
-    <label for="pn">Phone Number</label>
-    <input id="pn" required type="number" name="=Phone number" minlength="11" maxlength="15" placeholder="Phone number">
-</div>
-<div class="groub">
-    <label for="d">Data Of Brith</label>
-    <input id="d" type="date" name="=data of brith">
-</div>
-<div class="groub">
-    <label for="ginder">Ginder</label>
-    <select required name="ginder" id="ginder">
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-    </select>
-</div>
-<div class="groub">
-    <button type="submit" >Sign Up</button>
-</div>
- 
+        <div class="group">
+            <input id="pn" required type="number" name="=Phone number" minlength="11" maxlength="15" placeholder="Phone number">
+        </div>
+        <div class="group">
+            <input id="d" type="date" name="=data of brith">
+        </div>
+        <div class="group">
+            <select required name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div class="group">
+            <input id="g" required  type="email" name="email" minlength="10" maxlength="20" placeholder="Email">
+        </div>
+        <div class="group">
+            <input id="p" required type="password" name="=password" minlength="8" maxlength="15" placeholder="password">
+        </div>
+        <div class="group">
+            <input id="cp" required type="password" name="=password" minlength="8" maxlength="15" placeholder="confirm password">
+        </div>
+        <div class="groub">
+            <button type="submit" >sign up</button>
+        </div>
     </form>   
     <div class="status">
-By clicking the Sign Up button,you agree to our <br>
-<a href="#">Terms and Conditions</a> and <a href="#">Policy and Privacy</a>
-<br> Already Have An Acount? <a href="#">Log In</a>
- </div>   
-</div>
+        By clicking the Sign Up button,you agree to our <br>
+        Terms and Conditions and Policy and Privacy
+        <br> Already Have An Acount? <a href="log.html">Log In</a>
+    </div>   
+    </div>
     </body>
 </html>
