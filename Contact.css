@@ -389,3 +389,9 @@ input:focus {
         top: 0;
     }
 }
+@media (min-width: 1310px) {
+    body {
+        background-size: cover;
+        height: 93vh;
+    }
+}
