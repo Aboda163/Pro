@@ -90,6 +90,7 @@ h1{
 .group{
     margin-bottom: 19px;
 }
+
 input:placeholder-shown {
     text-transform: capitalize;
 }

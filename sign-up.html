@@ -26,30 +26,38 @@
         <h1>Sign Up</h1>
     <form >
         <div class="group">
+            <label for="fn">frist name</label>
             <input id="fn" type="text" name="=Frist N" minlength="3" maxlength="10" placeholder="frist name">
         </div>
         <div class="group">
+            <label for="ln">last name</label>
             <input id="ln" type="text" name="=Last N" minlength="3" maxlength="10" placeholder="last name">
         </div>
         <div class="group">
+            <label for="pn">Phone number</label>
             <input id="pn" required type="number" name="=Phone number" minlength="11" maxlength="15" placeholder="Phone number">
         </div>
         <div class="group">
-            <input id="d" type="date" name="=data of brith">
+            <label for="d">Date</label>
+            <input id="d" type="date" name="data of brith" placeholder="Date">
         </div>
-        <div class="group">
-            <select required name="gender" id="gender">
+        <div class="group" >
+            <label for="gender">gender</label>
+            <select required name="gender" id="gender" >
                 <option value="male">Male</option>
                 <option value="female">Female</option>
             </select>
         </div>
         <div class="group">
-            <input id="g" required  type="email" name="email" minlength="10" maxlength="20" placeholder="Email">
+            <label for="g">Email</label>
+            <input id="g" required  type="email" name="email" minlength="10" maxlength="20" placeholder="">
         </div>
         <div class="group">
+            <label for="p">Password</label>
             <input id="p" required type="password" name="=password" minlength="8" maxlength="15" placeholder="password">
         </div>
         <div class="group">
+            <label for="cp">confirm password</label>
             <input id="cp" required type="password" name="=password" minlength="8" maxlength="15" placeholder="confirm password">
         </div>
         <div class="groub">
