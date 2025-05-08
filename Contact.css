@@ -45,6 +45,7 @@ li a{
     font-size: 12px;
     font-weight: bold;
     margin-right: 40px;
+    text-decoration: none;
 }
 .button_signUp,
 .button_login{
