@@ -68,9 +68,11 @@ h2 {
     position: relative;
     text-align: center;
     font-size: 65px;
-    top: -40px;
+    color: white;
+    top: 30px;
     margin-bottom: -25px;
     text-transform: capitalize;
+    z-index: 4;
 }
 p:nth-child(2){
     margin: 0 auto 10px;
