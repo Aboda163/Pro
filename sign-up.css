@@ -70,8 +70,9 @@ button a{
 }
 .sign-up{
     padding: 32px;
-    width: 100%;
-    max-width: 400px;
+    position: absolute;
+    max-width: 500px;
+    width: 450px;
     background-color: #F0BB78;
     border: 2px solid black;
     border-radius: 15px;
@@ -79,6 +80,7 @@ button a{
     box-shadow: 3px 3px 15px 1px;
     text-transform: capitalize;
     z-index: 3;
+    top: 115px;
 }
 h1{
     text-align: center;
