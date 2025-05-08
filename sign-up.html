@@ -13,8 +13,8 @@
                 <div class="logo"><a href="HomePage.html">Dream resturant</a></div> <!-- logo -->
                 <ul>
                     <li><a href="HomePage.html">HOME</a></li>
-                    <li><a href="#">MENU</a></li>
-                    <li><a href="#">PROFILE</a></li>    
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="Cart.html">CART</a></li>    
                     <li><a href="about.html">ABOUT US</a></li> 
                     <li><a href="ContactUS.html">CONTACT US</a></li>     
                     <button class="button_signUp"><a href="sign-up.html">sign-up</a></button>  
@@ -24,14 +24,14 @@
         </nav></div>
     <div class="sign-up"> 
         <h1>Sign Up</h1>
-    <form >
+    <form method="post">
         <div class="group">
             <label for="fn">frist name</label>
-            <input id="fn" type="text" name="=Frist N" minlength="3" maxlength="10" placeholder="frist name">
+            <input id="fn" type="text" name="=Frist N" minlength="3" maxlength="20" placeholder="frist name">
         </div>
         <div class="group">
             <label for="ln">last name</label>
-            <input id="ln" type="text" name="=Last N" minlength="3" maxlength="10" placeholder="last name">
+            <input id="ln" type="text" name="=Last N" minlength="3" maxlength="20" placeholder="last name">
         </div>
         <div class="group">
             <label for="pn">Phone number</label>
@@ -51,15 +51,15 @@
         </div>
         <div class="group">
             <label for="g">Email</label>
-            <input id="g" required  type="email" name="email" minlength="10" maxlength="20" placeholder="Email">
+            <input id="g" required  type="email" name="email" minlength="10" maxlength="40" placeholder="Email">
         </div>
         <div class="group">
             <label for="p">Password</label>
-            <input id="p" required type="password" name="=password" minlength="8" maxlength="15" placeholder="password">
+            <input id="p" required type="password" name="=password" minlength="8" maxlength="20" placeholder="password">
         </div>
         <div class="group">
             <label for="cp">confirm password</label>
-            <input id="cp" required type="password" name="=password" minlength="8" maxlength="15" placeholder="confirm password">
+            <input id="cp" required type="password" name="=password" minlength="8" maxlength="20" placeholder="confirm password">
         </div>
         <div class="groub">
             <button type="submit" >sign up</button>
@@ -70,6 +70,15 @@
         Terms and Conditions and Policy and Privacy
         <br> Already Have An Acount? <a href="log.html">Log In</a>
     </div>   
+    </div>
+    <!-- Success Message Modal -->
+    <div class="success-modal" id="successModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="checkmark">✓</div>
+            <h2>Sign Up Successful!</h2>
+            <p>Welcome to Dream Restaurant family 🎉</p>
+        </div>
     </div>
     <script src="sign-up.js"></script>
     </body>

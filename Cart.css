@@ -5,12 +5,64 @@
     margin :0;
         font-family:"Work Sans",sans-serif;   
         background-image: url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      margin: 0;
-      padding: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
 
+}
+.navbar{
+    width: 100%;
+    background-color: #4E1F00;
+    margin: 10px;
+    padding-inline: 15px;
+    position: relative;
+    z-index: 10;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+.navdiv{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    margin-top: 10px;
+}
+.logo a{
+    color: aliceblue;
+    font-size: 40px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    padding-top: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.button_signUp,
+.button_login{
+    background-color: rgba(0, 0, 0, 0);
+    margin: 20px ;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.788);
+    border-radius: 10px;
+    width: 160px;
+}
+button a{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Varela Round", sans-serif;
 }
 header.links{
     position: relative;    
@@ -30,12 +82,12 @@ header.links{
     background-color: #eee;
 }
 .order-content{
-   display: grid;
+    display: grid;
     color: #777;
-   justify-content: center;
-   align-items: center;
-   background-color:white;
-   width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    width: 100%;
 }
 .order-content img{
     width:100%;
@@ -62,8 +114,8 @@ header.links{
 }
 .content ul{
     list-style: none;
-  margin-left: 70px;
-  margin-bottom: 20px;
+    margin-left: 70px;
+    margin-bottom: 20px;
 }
 .content button{
     color: #777;
@@ -74,6 +126,5 @@ header.links{
 .content button:hover{
     color:white;
     background-color:black;
-     
 }
 

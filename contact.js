@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
             z-index: 1000;
         `;
-
+        
         // Add success message to the body
         document.body.appendChild(successMessage);
 
