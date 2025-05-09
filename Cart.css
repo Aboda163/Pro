@@ -299,6 +299,33 @@ button a{
     color: #4E1F00;
     font-weight: bold;
 }
+.cart-item {
+    transition: all 0.3s ease;
+}
+/* Thank You Page Styles */
+.order-confirmed {
+    text-align: center;
+    padding: 2rem;
+}
+
+.order-confirmed h3 {
+    color: #4E1F00;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.order-confirmed p {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    color: #7a6a5b;
+}
+
+.checkout-btn[href="HomePage.html"] {
+    background: #6d3a1a;
+    margin-top: 2rem;
+    text-decoration: none;
+    display: block;
+}
 /* Responsive Design */
 /* Responsive Design */
 @media (max-width: 1200px) {
