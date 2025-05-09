@@ -3,40 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Your Cart - Dream Restaurant</title>
     <link rel="stylesheet" href="Cart.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Add homepage navbar fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Varela+Round&display=swap" rel="stylesheet">
 </head>
-<body>
-    <nav class="navbar">
-        <header class="navdiv">
-            <div class="logo"><a href="HomePage.html">Dream resturant</a></div> <!-- logo -->
-            <ul>
-                <li><a href="HomePage.html">HOME</a></li>
-                <li><a href="menu.html">MENU</a></li>
-                <li><a href="Cart.html">CART</a></li>    
-                <li><a href="about.html">ABOUT US</a></li> 
-                <li><a href="ContactUS.html">CONTACT US</a></li>     
-                <button class="button_signUp"><a href="sign-up.html">sign-up</a></button>  
-                <button class="button_login"><a href="log.html">log-in</a></button>  
-            </ul>
-        </header>
-    </nav>
-    <div class="order">
-        <h1 class="order-text">Your Orders</h1>
+<div>
+    <!-- Consistent Navigation Bar -->
+    <div class="background"></div>
+        <nav class="navbar">
+            <header class="navdiv">
+                <div class="logo"><a href="HomePage.html">Dream Restaurant</a></div>
+                <ul>
+                    <li><a href="HomePage.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="Cart.html">CART <span class="cart-counter">0</span></a></li>    
+                    <li><a href="about.html">ABOUT US</a></li> 
+                    <li><a href="ContactUS.html">CONTACT US</a></li>     
+                    <button class="button_signUp"><a href="sign-up.html">SIGN UP</a></button>  
+                    <button class="button_login"><a href="log.html">LOG IN</a></button>  
+                </ul>
+            </header>
+        </nav>
     </div>
-    <div class="content">
-        <p>Price:  90$</p>
-        <p>Time to deliverd you:  2 Hours</p>
-        <p class="address">Address: <ul>
-            <li>street: NY 10234, USA </li>
-            <li>floor: NUM 8</li>
-            <li>block Num:  23</li>
-        </ul></p>
-        <button>Check Out</button>
+    <!-- Cart Container -->
+    <div class="cart-container">
+        <h1 class="cart-header">Your Order</h1>
+        
+        <div class="cart-content">
+            <!-- Dynamic cart items will be inserted here -->
+        </div>
+
+        <!-- Order Summary -->
+        <div class="order-summary">
+            <div class="summary-card">
+                <h3>Order Details</h3>
+                <div class="summary-row">
+                    <span>Subtotal:</span>
+                    <span class="price">$90.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>Delivery:</span>
+                    <span class="price">FREE</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total:</span>
+                    <span class="price">$90.00</span>
+                </div>
+                <div class="delivery-info">
+                    <i class="fas fa-clock"></i>
+                    <p>Estimated delivery time: <strong>2 Hours</strong></p>
+                </div>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
     </div>
-    <div class="order-content">
-        <img src="https://th.bing.com/th/id/OIP.firJ6YUuNLUnDVBtB4WphQHaHa?cb=iwp1&rs=1&pid=ImgDetMain" alt="">
-    </div>
+    <script src="menu.js"></script>
 </body>
 </html>
