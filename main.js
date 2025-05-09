@@ -21,7 +21,7 @@ if (productsButton) {
     });
 }
 
-// Sticky navbar on scroll
+// Sticky navbar on scroll           
 window.addEventListener('scroll', function () {
     const navbar = document.querySelector('.navbar');
     if (navbar) {
@@ -32,9 +32,9 @@ window.addEventListener('scroll', function () {
             navbar.style.background = 'rgba(78, 31, 0, 0.9)'; // Matches Cart.css navbar color
             navbar.style.zIndex = '1000';
             navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
-        } else {
+        } else { // Reset to original
             navbar.style.position = 'relative';
-            navbar.style.background = ''; // Reset to original
+            navbar.style.background = '';
             navbar.style.boxShadow = '';
         }
     }
