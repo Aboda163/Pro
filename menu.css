@@ -155,7 +155,7 @@ span{
     background: rgba(255, 255, 255, 0.2);
 }
 
-.search-btn {
+button.search-btn {
     position: absolute;
     right: 10px;
     top: 50%;
