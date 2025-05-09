@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Redirect "Products" button to menu.html
-const productsButton = document.querySelector('.buttons .button_login a');
+const productsButton = document.querySelector('.buttons .button_product a');
 if (productsButton) {
     productsButton.addEventListener('click', function(e) {
         e.preventDefault();
