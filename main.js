@@ -1,7 +1,7 @@
 // main.js for homepage.html
 
 // Fade-in effect for the hero text
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const heroText = document.querySelector('.descr');
     if (heroText) {
         heroText.style.opacity = '0';
@@ -13,16 +13,16 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Redirect "Products" button to menu.html
-const productsButton = document.querySelector('.buttons .button_login a');
+const productsButton = document.querySelector('.buttons .button_product a');
 if (productsButton) {
-    productsButton.addEventListener('click', function(e) {
+    productsButton.addEventListener('click', function (e) {
         e.preventDefault();
         window.location.href = 'menu.html';
     });
 }
 
 // Sticky navbar on scroll
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
     const navbar = document.querySelector('.navbar');
     if (navbar) {
         if (window.scrollY > 50) {
