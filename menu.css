@@ -187,7 +187,6 @@ button.search-btn {
         width: 100%;
     }
 }
-/* Add this at the end of your existing menu.css file */
 
 /* Responsive Media Queries */
 @media (max-width: 1200px) {
