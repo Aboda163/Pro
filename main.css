@@ -51,7 +51,8 @@ li a{
     margin-right: 40px;
 }
 .button_signUp,
-.button_login{
+.button_login,
+.button_product {
     background-color: rgba(0, 0, 0, 0);
     margin: 20px ;
     padding: 10px;
