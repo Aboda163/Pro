@@ -30,7 +30,6 @@ z-index: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 .logo{
     margin-top: 10px;
@@ -193,4 +192,130 @@ color: #4E1F00;
 
 .close-modal:hover {
     color: #000;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .logo a {
+        font-size: 50px;
+    }
+    
+    li a {
+        margin-right: 30px;
+    }
+    
+    .button_signUp,
+    .button_login {
+        width: 120px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navdiv {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .logo {
+        margin-bottom: 15px;
+    }
+    
+    ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    li a {
+        margin-right: 15px;
+        font-size: 11px;
+    }
+    
+    .button_signUp,
+    .button_login {
+        width: 100px;
+        padding: 8px;
+        margin: 5px 0;
+    }
+    
+    .sign-up {
+        width: 90%;
+        max-width: 400px;
+        top: 150px;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .background {
+        height: 250px;
+    }
+    
+    .logo a {
+        font-size: 40px;
+    }
+    
+    ul {
+        flex-direction: column;
+    }
+    
+    li {
+        margin-bottom: 5px;
+    }
+    
+    .button_signUp,
+    .button_login {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .sign-up {
+        top: 180px;
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    
+    .group {
+        margin-bottom: 15px;
+    }
+    
+    form input,
+    select {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    button {
+        padding: 12px;
+        font-size: 14px;
+    }
+    
+    .modal-content {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .sign-up {
+        width: 95%;
+        top: 200px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    .status {
+        font-size: 14px;
+    }
 }
