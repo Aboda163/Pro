@@ -167,5 +167,4 @@ if (searchBar) {
         window.location.href = 'HomePage.html';
     }, 2500); // Matches toast duration
 });
-
-});
+});//finish
