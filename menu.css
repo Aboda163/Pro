@@ -134,7 +134,7 @@ span{
     margin-right: 30px;
 }
 
-.search-input {
+#searchBar {
     padding: 8px 35px 8px 15px;
     border: 2px solid rgba(255, 255, 255, 0.788);
     border-radius: 25px;
@@ -145,11 +145,11 @@ span{
     transition: all 0.3s ease;
 }
 
-.search-input::placeholder {
+#searchBar::placeholder {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.search-input:focus {
+#searchBar:focus {
     outline: none;
     width: 250px;
     background: rgba(255, 255, 255, 0.2);

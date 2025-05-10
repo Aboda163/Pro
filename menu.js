@@ -114,6 +114,21 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    const searchBar = document.getElementById('searchBar');
+
+if (searchBar) {
+    searchBar.addEventListener('input', () => {
+        const query = searchBar.value.toLowerCase();
+        document.querySelectorAll('.product_items').forEach(item => {
+            const name = item.querySelector('h2')?.textContent.toLowerCase() || '';
+            if (name.includes(query)) {
+                item.style.display = '';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    });
+}
     function updateOrderSummary() {
         const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
         const total = subtotal;
@@ -152,4 +167,5 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'HomePage.html';
     }, 2500); // Matches toast duration
 });
+
 });
