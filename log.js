@@ -1,10 +1,10 @@
 // Wait for the DOM content to load before executing the script
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Select the form element
     const form = document.querySelector('form');
-    
+
     // Add submit event listener to the form
-    form.addEventListener('submit', function(e) {
+    form.addEventListener('submit', function (e) {
         // Prevent default form submission behavior
         e.preventDefault();
 
@@ -40,10 +40,10 @@ document.addEventListener('DOMContentLoaded', function() {
             color: white;
             padding: 15px;
             border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 5px rgba(0,0,0,0);
             z-index: 1000;
         `;
-        
+
         // Add success message to the body
         document.body.appendChild(successMessage);
 
