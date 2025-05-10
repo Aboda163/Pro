@@ -10,11 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.name{
-    text-align: center;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-}
+
 .navbar{
 
     margin: 10px;
@@ -75,6 +71,11 @@ button a{
     position: absolute;
     top: 0px;
     left: 0px;
+}
+.name{
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
 }
 .descr{
     width: 50%;
