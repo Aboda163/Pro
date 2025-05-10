@@ -126,6 +126,14 @@ section a{
     line-height: 1.5;
     margin-top: 10px;
 }
+video {
+    position: relative;
+    top: -90px;
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    height: 400px;
+}
 /* media query */
 /* Media Queries for Responsive Design */
 /* Existing CSS remains the same until the media queries section */
