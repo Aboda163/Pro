@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Montserrat", sans-serif;
 }
 .navbar{
     background-color: #283618;

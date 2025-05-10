@@ -132,6 +132,9 @@ section a{
 
 /* Enhanced Media Queries for Responsive Design */
 @media (max-width: 1200px) {
+    body {
+        height: 99vh;
+    }
     .descr {
         width: 70%;
         top: 300px;
@@ -145,7 +148,10 @@ section a{
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px) { 
+    body {
+        height: 100vh;
+    }
     .logo a {
         font-size: 32px;
     }

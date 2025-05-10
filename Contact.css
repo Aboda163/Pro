@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     background-color: #F0BB78;
     z-index: 1;
+    font-family: "Montserrat", sans-serif;
 }
 .background {
     padding: 0;
